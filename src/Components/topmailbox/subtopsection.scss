@@ -1,0 +1,38 @@
+.subtopContainer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    .subtopWrapper{
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        width: 27%;
+        height: 60px;
+        position: relative;
+        color: gray;
+        cursor: pointer;
+
+        &:hover{
+            background-color: rgb(236, 236, 236);
+        }
+
+        .active{
+            color: rgb(189, 14, 14);
+        }
+
+        .subtopIcon{
+            margin-right: 12px;
+        }
+
+        .bottomLine{
+            position: absolute;
+            bottom: -1px;
+            left: 10px;
+            width: 92%;
+            background: rgb(189, 14, 14);
+            height: 3px;
+            border-radius: 33px;
+        }
+    }
+}

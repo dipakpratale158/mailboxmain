@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.Navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: cursive;
+  background-color: rgb(231, 147, 147);
+  color: white;
+  height: 70px;
+}
+.Navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.Navbar a:hover {
+  color: aqua;
+}
+.animated {
+  animation: dance 1s infinite;
+}
+
+@keyframes dance {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

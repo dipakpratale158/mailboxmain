@@ -1,0 +1,96 @@
+.mailListContainer{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    cursor: pointer;
+    border-bottom: 1px solid whitesmoke;
+    padding-left: 20px;
+    padding-right: 10px;
+    gap: 10px;
+    border-bottom: 1.5px solid rgb(225, 225, 225);
+
+    &:hover{
+        box-shadow: 0px 4px 4px -2px rgba(0,0,0,0.24);
+    }
+
+    .mailListOptions{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        input{
+            height: 16px;
+            width: 16px;
+            color: gray;
+        }
+
+        .mailListIcon{
+            font-size: 22px;
+            color: gray;
+        }
+    }
+
+    .mailListTitle{
+        margin-right: 120px;
+    }
+
+    .mailListSubject{
+        span{
+            width: 400px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            padding-right: 5px;
+
+            .mailListDesc{
+                color: rgb(107, 107, 107);
+            }
+        }
+    }
+}
+
+$search-bar-height: 40px;
+$search-icon-size: 20px;
+
+.search-container {
+  display: flex;
+  align-items: center;
+  height: $search-bar-height;
+  padding: 0 8px;
+  background-color: #f1f3f4;
+  border-radius: $search-bar-height / 2;
+  box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.1);
+
+  input[type="text"] {
+    flex: 1;
+    height: $search-bar-height;
+    border: none;
+    background: none;
+    font-size: 16px;
+    padding-left: 8px;
+    color: #202124;
+    &::placeholder {
+      color: #5f6368;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: $search-bar-height;
+    width: $search-bar-height;
+    border-radius: $search-bar-height / 2;
+    background-color: white;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    margin-right: 8px;
+
+    i {
+      font-size: $search-icon-size;
+      color: #5f6368;
+    }
+  }
+}

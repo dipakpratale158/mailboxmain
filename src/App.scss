@@ -1,0 +1,11 @@
+.appContainer{
+    width: 100%;
+    min-height: calc(100vh - 65px);
+    display: flex;
+    z-index: -999;
+    
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+}
