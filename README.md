@@ -1,6 +1,18 @@
-# Getting Started with Create React App
+Mail Box 💌 - React Js
+Tech Stack:
+React | Redux | Firebase | API Integration
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features:
+Interactive Ui Design
+Flow of data at global level using Redux
+A user Specific project
+One user can send mail to another user and can see in sent mails
+and the receiver can see the mail in his/her inbox
+User can also Read , Delete the mail from sent box and also from
+inbox
+An Unread feature also developed , the mail will be unread until
+and unless the user will not read the mail . Once he/she read the mail ,
+the unread icon will be removed.
 
 ## Available Scripts
 
